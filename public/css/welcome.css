@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto&family=Source+Sans+Pro:wght@200&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fafafa;
+    font-family: "Source Sans Pro", sans-serif;
+}
+/* navbar section */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.header .logo a {
+    text-decoration: none;
+}
+.header .logo p {
+    display: inline-flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.header .logo img {
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.header ul li {
+    margin: 0 10px;
+    padding: 16px;
+}
+.header .list {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.header .list:hover {
+    color: rgb(98, 211, 255) !important;
+}
+#Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../Assets/bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+#Home .Container {
+    min-height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 75px;
+}
+
+#Home h1 {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    position: relative;
+    color: white;
+}
